@@ -7,9 +7,9 @@
 //
 
 #if defined(__has_feature) && __has_feature(objc_modules)
-@import Foundation;
+    @import Foundation;
 #else
-#import <Foundation/Foundation.h>
+    #import <Foundation/Foundation.h>
 #endif
 
 @interface NSCalendar (AstronomyKit)

@@ -6,14 +6,7 @@
 //  Copyright (c) 2015 Hodinkee. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <AstronomyKit/AstronomicalCalculations.h>
 
-//! Project version number for AstronomyKit.
 FOUNDATION_EXPORT double AstronomyKitVersionNumber;
-
-//! Project version string for AstronomyKit.
 FOUNDATION_EXPORT const unsigned char AstronomyKitVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <AstronomyKit/PublicHeader.h>
-
-
