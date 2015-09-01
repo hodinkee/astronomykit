@@ -1,0 +1,3 @@
+[submodule "Vendor/AA+"]
+	path = Vendor/AA+
+	url = https://github.com/hodinkee/aaplus.git
