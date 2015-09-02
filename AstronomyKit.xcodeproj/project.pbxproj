@@ -129,7 +129,7 @@
 		3BE053F31B9642EC00CC8DF0 /* AAVenus.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053761B9642EC00CC8DF0 /* AAVenus.h */; };
 		3BE053F61B9642EC00CC8DF0 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053791B9642EC00CC8DF0 /* stdafx.cpp */; };
 		3BE053F71B9642EC00CC8DF0 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE0537A1B9642EC00CC8DF0 /* stdafx.h */; };
-		3BE053FD1B96434A00CC8DF0 /* AstronomicalCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */; };
+		3BE053FD1B96434A00CC8DF0 /* AstronomicalCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BE053FE1B96434A00CC8DF0 /* AstronomicalCalculations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053F91B96434A00CC8DF0 /* AstronomicalCalculations.mm */; };
 		3BE053FF1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053FB1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.h */; };
 		3BE054001B96434A00CC8DF0 /* NSCalendar+AstronomyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053FC1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.m */; };
