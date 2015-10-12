@@ -7,6 +7,7 @@
 //
 
 #import <AstronomyKit/AstronomicalCalculations.h>
+#import <AstronomyKit/NSCalendar+AstronomyKit.h>
 
 FOUNDATION_EXPORT double AstronomyKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char AstronomyKitVersionString[];

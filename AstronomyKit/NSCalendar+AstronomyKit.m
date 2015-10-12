@@ -8,17 +8,17 @@
 
 #import "NSCalendar+AstronomyKit.h"
 
-static NSString *const NSCalendar_AstronomyKit_SharedGregorianCalendarKey = @"com.north.AstronomyKit.SharedGregorianCalendar";
+static NSString *const AstronomyKitSharedGregorianCalendarKey = @"com.north.AstronomyKit.SharedGregorianCalendar";
 
 @implementation NSCalendar (AstronomyKit)
 
 + (instancetype)AstronomyKit_GregorianCalendar {
     NSThread *thread = [NSThread currentThread];
     NSMutableDictionary *dictionary = [thread threadDictionary];
-    NSCalendar *calendar = dictionary[NSCalendar_AstronomyKit_SharedGregorianCalendarKey];
+    NSCalendar *calendar = dictionary[AstronomyKitSharedGregorianCalendarKey];
     if (calendar == nil) {
-        calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-        dictionary[NSCalendar_AstronomyKit_SharedGregorianCalendarKey] = calendar;
+        calendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
+        dictionary[AstronomyKitSharedGregorianCalendarKey] = calendar;
     }
     return calendar;
 }
