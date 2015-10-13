@@ -14,6 +14,6 @@
 
 @interface NSCalendar (AstronomyKit)
 
-+ (instancetype)AstronomyKit_GregorianCalendar;
++ (instancetype _Nonnull)AstronomyKit_GregorianCalendar;
 
 @end
