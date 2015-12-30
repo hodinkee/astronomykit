@@ -15,7 +15,7 @@
 #pragma mark - Time calculations
 
 + (double)julianDateWithDate:(NSDate *)date {
-    NSCalendar *calendar = [NSCalendar AstronomyKit_GregorianCalendar];
+    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
     NSCalendarUnit units = (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay);
     NSDateComponents *components = [calendar components:units fromDate:date];
     CAADate otherDate = CAADate(components.year, components.month, components.day, true);
@@ -23,7 +23,7 @@
 }
 
 + (double)julianDateTimeWithDate:(NSDate *)date {
-    NSCalendar *calendar = [NSCalendar AstronomyKit_GregorianCalendar];
+    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
     NSCalendarUnit units = (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond);
     NSDateComponents *components = [calendar components:units fromDate:date];
     CAADate otherDate = CAADate(components.year, components.month, components.day, components.hour, components.minute, components.second, true);
@@ -49,12 +49,12 @@
     components.minute = minute;
     components.second = second;
 
-    NSCalendar *calendar = [NSCalendar AstronomyKit_GregorianCalendar];
+    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
     return [calendar dateFromComponents:components];
 }
 
 + (double)fracionalYearWithDate:(NSDate *)date {
-    NSCalendar *calendar = [NSCalendar AstronomyKit_GregorianCalendar];
+    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
     NSCalendarUnit units = (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond);
     NSDateComponents *components = [calendar components:units fromDate:date];
     CAADate otherDate = CAADate(components.year, components.month, components.day, components.hour, components.minute, components.second, true);

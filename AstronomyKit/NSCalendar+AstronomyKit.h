@@ -12,8 +12,12 @@
     #import <Foundation/Foundation.h>
 #endif
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSCalendar (AstronomyKit)
 
-+ (instancetype _Nonnull)AstronomyKit_GregorianCalendar;
++ (instancetype)AstronomyKitGregorianCalendar;
 
 @end
+
+NS_ASSUME_NONNULL_END

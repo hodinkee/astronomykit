@@ -322,10 +322,10 @@
 				3BE052E51B96429800CC8DF0 /* AstronomyKit.h */,
 				3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */,
 				3BE053F91B96434A00CC8DF0 /* AstronomicalCalculations.mm */,
-				3BE053FA1B96434A00CC8DF0 /* AstronomyKit.playground */,
 				3BE053FB1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.h */,
 				3BE053FC1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.m */,
 				3BE052E41B96429800CC8DF0 /* Info.plist */,
+				3BE053FA1B96434A00CC8DF0 /* AstronomyKit.playground */,
 			);
 			path = AstronomyKit;
 			sourceTree = "<group>";
