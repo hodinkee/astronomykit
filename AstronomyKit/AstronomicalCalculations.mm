@@ -47,7 +47,7 @@
     components.day = day;
     components.hour = hour;
     components.minute = minute;
-    components.second = second;
+    components.second = (NSInteger)second;
 
     NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
     return [calendar dateFromComponents:components];
