@@ -109,7 +109,6 @@
 		3A7D179F1C3455E00068220A /* AARiseTransitSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7D16BC1C3455E00068220A /* AARiseTransitSet.h */; };
 		3A7D17A01C3455E00068220A /* AASaturn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D16BD1C3455E00068220A /* AASaturn.cpp */; };
 		3A7D17A11C3455E00068220A /* AASaturn.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7D16BE1C3455E00068220A /* AASaturn.h */; };
-		3A7D17A21C3455E00068220A /* AASaturnMoons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D16BF1C3455E00068220A /* AASaturnMoons.cpp */; };
 		3A7D17A31C3455E00068220A /* AASaturnMoons.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7D16C01C3455E00068220A /* AASaturnMoons.h */; };
 		3A7D17A41C3455E00068220A /* AASaturnRings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D16C11C3455E00068220A /* AASaturnRings.cpp */; };
 		3A7D17A51C3455E00068220A /* AASaturnRings.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7D16C21C3455E00068220A /* AASaturnRings.h */; };
@@ -474,6 +473,33 @@
 		3A7D17371C3455E00068220A /* naughter.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = naughter.css; sourceTree = "<group>"; };
 		3A7D17381C3455E00068220A /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
 		3A7D17391C3455E00068220A /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		3A7D181F1C3457C10068220A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3A7D18211C3457C10068220A /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		3A7D18231C3457C10068220A /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		3A7D18241C3457C10068220A /* Profile.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		3A7D18251C3457C10068220A /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		3A7D18261C3457C10068220A /* Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		3A7D18281C3457C10068220A /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		3A7D18291C3457C10068220A /* Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		3A7D182A1C3457C10068220A /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		3A7D182C1C3457C10068220A /* iOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		3A7D182D1C3457C10068220A /* iOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		3A7D182E1C3457C10068220A /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		3A7D182F1C3457C10068220A /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		3A7D18311C3457C10068220A /* Mac-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		3A7D18321C3457C10068220A /* Mac-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		3A7D18331C3457C10068220A /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		3A7D18341C3457C10068220A /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		3A7D18351C3457C10068220A /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		3A7D18361C3457C10068220A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3A7D18381C3457C10068220A /* tvOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "tvOS-Application.xcconfig"; sourceTree = "<group>"; };
+		3A7D18391C3457C10068220A /* tvOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "tvOS-Base.xcconfig"; sourceTree = "<group>"; };
+		3A7D183A1C3457C10068220A /* tvOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "tvOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		3A7D183B1C3457C10068220A /* tvOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "tvOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		3A7D183D1C3457C10068220A /* watchOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Application.xcconfig"; sourceTree = "<group>"; };
+		3A7D183E1C3457C10068220A /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
+		3A7D183F1C3457C10068220A /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		3A7D18401C3457C10068220A /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstronomyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE052E41B96429800CC8DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE052E51B96429800CC8DF0 /* AstronomyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstronomyKit.h; sourceTree = "<group>"; };
@@ -741,11 +767,111 @@
 			path = "Vendor/AA+/src";
 			sourceTree = "<group>";
 		};
+		3A7D181D1C3457B50068220A /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D181E1C3457C10068220A /* xcconfigs */,
+			);
+			name = Submodules;
+			sourceTree = "<group>";
+		};
+		3A7D181E1C3457C10068220A /* xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D181F1C3457C10068220A /* .gitignore */,
+				3A7D18201C3457C10068220A /* Base */,
+				3A7D182B1C3457C10068220A /* iOS */,
+				3A7D18301C3457C10068220A /* Mac OS X */,
+				3A7D18361C3457C10068220A /* README.md */,
+				3A7D18371C3457C10068220A /* tvOS */,
+				3A7D183C1C3457C10068220A /* watchOS */,
+			);
+			name = xcconfigs;
+			path = Submodules/xcconfigs;
+			sourceTree = "<group>";
+		};
+		3A7D18201C3457C10068220A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D18211C3457C10068220A /* Common.xcconfig */,
+				3A7D18221C3457C10068220A /* Configurations */,
+				3A7D18271C3457C10068220A /* Targets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3A7D18221C3457C10068220A /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D18231C3457C10068220A /* Debug.xcconfig */,
+				3A7D18241C3457C10068220A /* Profile.xcconfig */,
+				3A7D18251C3457C10068220A /* Release.xcconfig */,
+				3A7D18261C3457C10068220A /* Test.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		3A7D18271C3457C10068220A /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D18281C3457C10068220A /* Application.xcconfig */,
+				3A7D18291C3457C10068220A /* Framework.xcconfig */,
+				3A7D182A1C3457C10068220A /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		3A7D182B1C3457C10068220A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D182C1C3457C10068220A /* iOS-Application.xcconfig */,
+				3A7D182D1C3457C10068220A /* iOS-Base.xcconfig */,
+				3A7D182E1C3457C10068220A /* iOS-Framework.xcconfig */,
+				3A7D182F1C3457C10068220A /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3A7D18301C3457C10068220A /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D18311C3457C10068220A /* Mac-Application.xcconfig */,
+				3A7D18321C3457C10068220A /* Mac-Base.xcconfig */,
+				3A7D18331C3457C10068220A /* Mac-DynamicLibrary.xcconfig */,
+				3A7D18341C3457C10068220A /* Mac-Framework.xcconfig */,
+				3A7D18351C3457C10068220A /* Mac-StaticLibrary.xcconfig */,
+			);
+			path = "Mac OS X";
+			sourceTree = "<group>";
+		};
+		3A7D18371C3457C10068220A /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D18381C3457C10068220A /* tvOS-Application.xcconfig */,
+				3A7D18391C3457C10068220A /* tvOS-Base.xcconfig */,
+				3A7D183A1C3457C10068220A /* tvOS-Framework.xcconfig */,
+				3A7D183B1C3457C10068220A /* tvOS-StaticLibrary.xcconfig */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		3A7D183C1C3457C10068220A /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D183D1C3457C10068220A /* watchOS-Application.xcconfig */,
+				3A7D183E1C3457C10068220A /* watchOS-Base.xcconfig */,
+				3A7D183F1C3457C10068220A /* watchOS-Framework.xcconfig */,
+				3A7D18401C3457C10068220A /* watchOS-StaticLibrary.xcconfig */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
 		3BE052D61B96429800CC8DF0 = {
 			isa = PBXGroup;
 			children = (
 				3BE052E21B96429800CC8DF0 /* AstronomyKit */,
 				3BE052EF1B96429800CC8DF0 /* AstronomyKitTests */,
+				3A7D181D1C3457B50068220A /* Submodules */,
 				3BE052FC1B9642D800CC8DF0 /* Vendor */,
 				3BE052E11B96429800CC8DF0 /* Products */,
 			);
@@ -1107,7 +1233,6 @@
 				3A7D17D71C3455E00068220A /* AAVSOP87B_EAR.cpp in Sources */,
 				3A7D180F1C3455E00068220A /* AAVSOP87E_NEP.cpp in Sources */,
 				3A7D174A1C3455E00068220A /* AADynamicalTime.cpp in Sources */,
-				3A7D17A21C3455E00068220A /* AASaturnMoons.cpp in Sources */,
 				3A7D18011C3455E00068220A /* AAVSOP87D_SAT.cpp in Sources */,
 				3A7D17CD1C3455E00068220A /* AAVSOP87A_MER.cpp in Sources */,
 				3A7D17C11C3455E00068220A /* AAVSOP87_URA.cpp in Sources */,
@@ -1154,45 +1279,10 @@
 /* Begin XCBuildConfiguration section */
 		3BE052F41B96429800CC8DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7D18231C3457C10068220A /* Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 3;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1200,38 +1290,10 @@
 		};
 		3BE052F51B96429800CC8DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7D18251C3457C10068220A /* Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 3;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1239,44 +1301,37 @@
 		};
 		3BE052F71B96429800CC8DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7D182E1C3457C10068220A /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEFINES_MODULE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 3;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AstronomyKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		3BE052F81B96429800CC8DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7D182E1C3457C10068220A /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEFINES_MODULE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 3;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AstronomyKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 		3BE052FA1B96429800CC8DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7D182C1C3457C10068220A /* iOS-Application.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
 				INFOPLIST_FILE = AstronomyKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1284,10 +1339,11 @@
 		};
 		3BE052FB1B96429800CC8DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7D182C1C3457C10068220A /* iOS-Application.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
 				INFOPLIST_FILE = AstronomyKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

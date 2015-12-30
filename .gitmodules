@@ -1,3 +1,6 @@
 [submodule "Vendor/AA+"]
 	path = Vendor/AA+
 	url = https://github.com/hodinkee/aaplus.git
+[submodule "Submodules/xcconfigs"]
+	path = Submodules/xcconfigs
+	url = https://github.com/jspahrsummers/xcconfigs.git
