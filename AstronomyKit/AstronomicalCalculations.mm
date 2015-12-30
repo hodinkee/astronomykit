@@ -192,8 +192,8 @@
 
 + (CAA2DCoordinate)solarCoordinatesWithJulianDate:(double)julianDate {
     double terestrialTime = CAADynamicalTime::UTC2TT(julianDate);
-    double lambda = CAASun::ApparentEclipticLongitude(terestrialTime);
-    double beta = CAASun::ApparentEclipticLatitude(terestrialTime);
+    double lambda = CAASun::ApparentEclipticLongitude(terestrialTime, true);
+    double beta = CAASun::ApparentEclipticLatitude(terestrialTime, true);
     double epsilon = CAANutation::TrueObliquityOfEcliptic(terestrialTime);
     return CAACoordinateTransformation::Ecliptic2Equatorial(lambda, beta, epsilon);
 }
