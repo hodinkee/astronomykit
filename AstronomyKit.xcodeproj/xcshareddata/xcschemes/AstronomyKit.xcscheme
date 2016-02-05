@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BE052EA1B96429800CC8DF0"
-               BuildableName = "AstronomyKitTests.xctest"
-               BlueprintName = "AstronomyKitTests"
+               BuildableName = "AstronomyKit Tests.xctest"
+               BlueprintName = "AstronomyKit Tests"
                ReferencedContainer = "container:AstronomyKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BE052EA1B96429800CC8DF0"
-               BuildableName = "AstronomyKitTests.xctest"
-               BlueprintName = "AstronomyKitTests"
+               BuildableName = "AstronomyKit Tests.xctest"
+               BlueprintName = "AstronomyKit Tests"
                ReferencedContainer = "container:AstronomyKit.xcodeproj">
             </BuildableReference>
          </TestableReference>

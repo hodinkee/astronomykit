@@ -1,6 +1,6 @@
-[submodule "Submodules/xcconfigs"]
-	path = Submodules/xcconfigs
-	url = https://github.com/jspahrsummers/xcconfigs.git
-[submodule "Submodules/AA+"]
-	path = Submodules/AA+
+[submodule "Carthage/Checkouts/aaplus"]
+	path = Carthage/Checkouts/aaplus
 	url = https://github.com/hodinkee/aaplus.git
+[submodule "Carthage/Checkouts/xcconfigs"]
+	path = Carthage/Checkouts/xcconfigs
+	url = https://github.com/jspahrsummers/xcconfigs.git
