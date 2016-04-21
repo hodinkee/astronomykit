@@ -505,7 +505,7 @@
 		3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstronomyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE052E41B96429800CC8DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE052E51B96429800CC8DF0 /* AstronomyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstronomyKit.h; sourceTree = "<group>"; };
-		3BE052EB1B96429800CC8DF0 /* AstronomyKit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AstronomyKit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE052EB1B96429800CC8DF0 /* AstronomyKit-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AstronomyKit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE052F11B96429800CC8DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE052F21B96429800CC8DF0 /* AstronomyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstronomyKitTests.m; sourceTree = "<group>"; };
 		3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalCalculations.h; sourceTree = "<group>"; };
@@ -925,7 +925,7 @@
 			isa = PBXGroup;
 			children = (
 				3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */,
-				3BE052EB1B96429800CC8DF0 /* AstronomyKit Tests.xctest */,
+				3BE052EB1B96429800CC8DF0 /* AstronomyKit-Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1081,9 +1081,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3BE052DF1B96429800CC8DF0 /* AstronomyKit */ = {
+		3BE052DF1B96429800CC8DF0 /* AstronomyKit-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BE052F61B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit" */;
+			buildConfigurationList = 3BE052F61B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit-iOS" */;
 			buildPhases = (
 				3BE052DB1B96429800CC8DF0 /* Sources */,
 				3BE052DC1B96429800CC8DF0 /* Frameworks */,
@@ -1094,14 +1094,14 @@
 			);
 			dependencies = (
 			);
-			name = AstronomyKit;
+			name = "AstronomyKit-iOS";
 			productName = AstronomyKit;
 			productReference = 3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3BE052EA1B96429800CC8DF0 /* AstronomyKit Tests */ = {
+		3BE052EA1B96429800CC8DF0 /* AstronomyKit-iOS-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BE052F91B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit Tests" */;
+			buildConfigurationList = 3BE052F91B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit-iOS-Tests" */;
 			buildPhases = (
 				3BE052E71B96429800CC8DF0 /* Sources */,
 				3BE052E81B96429800CC8DF0 /* Frameworks */,
@@ -1112,9 +1112,9 @@
 			dependencies = (
 				3BE052EE1B96429800CC8DF0 /* PBXTargetDependency */,
 			);
-			name = "AstronomyKit Tests";
+			name = "AstronomyKit-iOS-Tests";
 			productName = AstronomyKitTests;
-			productReference = 3BE052EB1B96429800CC8DF0 /* AstronomyKit Tests.xctest */;
+			productReference = 3BE052EB1B96429800CC8DF0 /* AstronomyKit-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1146,8 +1146,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BE052DF1B96429800CC8DF0 /* AstronomyKit */,
-				3BE052EA1B96429800CC8DF0 /* AstronomyKit Tests */,
+				3BE052DF1B96429800CC8DF0 /* AstronomyKit-iOS */,
+				3BE052EA1B96429800CC8DF0 /* AstronomyKit-iOS-Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -1299,7 +1299,7 @@
 /* Begin PBXTargetDependency section */
 		3BE052EE1B96429800CC8DF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BE052DF1B96429800CC8DF0 /* AstronomyKit */;
+			target = 3BE052DF1B96429800CC8DF0 /* AstronomyKit-iOS */;
 			targetProxy = 3BE052ED1B96429800CC8DF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1362,7 +1362,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)-Tests";
 			};
 			name = Debug;
 		};
@@ -1374,7 +1374,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)-Tests";
 			};
 			name = Release;
 		};
@@ -1390,7 +1390,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BE052F61B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit" */ = {
+		3BE052F61B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BE052F71B96429800CC8DF0 /* Debug */,
@@ -1399,7 +1399,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BE052F91B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit Tests" */ = {
+		3BE052F91B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit-iOS-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BE052FA1B96429800CC8DF0 /* Debug */,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,21 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BE052DF1B96429800CC8DF0"
                BuildableName = "AstronomyKit.framework"
-               BlueprintName = "AstronomyKit"
-               ReferencedContainer = "container:AstronomyKit.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3BE052EA1B96429800CC8DF0"
-               BuildableName = "AstronomyKit Tests.xctest"
-               BlueprintName = "AstronomyKit Tests"
+               BlueprintName = "AstronomyKit-iOS"
                ReferencedContainer = "container:AstronomyKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BE052EA1B96429800CC8DF0"
-               BuildableName = "AstronomyKit Tests.xctest"
-               BlueprintName = "AstronomyKit Tests"
+               BuildableName = "AstronomyKit-Tests.xctest"
+               BlueprintName = "AstronomyKit-iOS-Tests"
                ReferencedContainer = "container:AstronomyKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -58,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BE052DF1B96429800CC8DF0"
             BuildableName = "AstronomyKit.framework"
-            BlueprintName = "AstronomyKit"
+            BlueprintName = "AstronomyKit-iOS"
             ReferencedContainer = "container:AstronomyKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,7 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BE052DF1B96429800CC8DF0"
             BuildableName = "AstronomyKit.framework"
-            BlueprintName = "AstronomyKit"
+            BlueprintName = "AstronomyKit-iOS"
             ReferencedContainer = "container:AstronomyKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -98,7 +84,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BE052DF1B96429800CC8DF0"
             BuildableName = "AstronomyKit.framework"
-            BlueprintName = "AstronomyKit"
+            BlueprintName = "AstronomyKit-iOS"
             ReferencedContainer = "container:AstronomyKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
