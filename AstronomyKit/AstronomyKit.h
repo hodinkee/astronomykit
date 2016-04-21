@@ -3,7 +3,7 @@
 //  AstronomyKit
 //
 //  Created by Caleb Davenport on 9/1/15.
-//  Copyright (c) 2015 Hodinkee. All rights reserved.
+//  Copyright © 2015-2016 HODINKEE. All rights reserved.
 //
 
 #import <AstronomyKit/AstronomicalCalculations.h>

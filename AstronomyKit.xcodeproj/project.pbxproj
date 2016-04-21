@@ -1124,7 +1124,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = Hodinkee;
+				ORGANIZATIONNAME = HODINKEE;
 				TargetAttributes = {
 					3BE052DF1B96429800CC8DF0 = {
 						CreatedOnToolsVersion = 6.4;

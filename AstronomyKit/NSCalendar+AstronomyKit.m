@@ -1,9 +1,9 @@
 //
 //  NSCalendar+AstronomyKit.m
-//  Watchville
+//  AstronomyKit
 //
 //  Created by Caleb Davenport on 2/9/15.
-//  Copyright (c) 2015 North Technologies, Inc. All rights reserved.
+//  Copyright © 2015-2016 HODINKEE. All rights reserved.
 //
 
 #import "NSCalendar+AstronomyKit.h"

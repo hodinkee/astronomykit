@@ -1,9 +1,9 @@
 //
 //  AstronomicalCalculations.m
-//  Watchville
+//  AstronomyKit
 //
 //  Created by Caleb Davenport on 12/8/14.
-//  Copyright (c) 2014 North Technologies, Inc. All rights reserved.
+//  Copyright © 2015-2016 HODINKEE. All rights reserved.
 //
 
 #import "AstronomicalCalculations.h"

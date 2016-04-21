@@ -3,7 +3,7 @@
 //  AstronomyKit
 //
 //  Created by Caleb Davenport on 12/8/14.
-//  Copyright (c) 2014 North Technologies, Inc. All rights reserved.
+//  Copyright © 2015-2016 HODINKEE. All rights reserved.
 //
 
 #if defined(__has_feature) && __has_feature(objc_modules)
