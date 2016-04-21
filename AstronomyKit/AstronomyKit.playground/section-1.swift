@@ -22,3 +22,7 @@ AstronomicalCalculations.dateForTrueLunarPhase(0.0, withDate: date) // New
 AstronomicalCalculations.dateForTrueLunarPhase(0.25, withDate: date) // First quarter
 AstronomicalCalculations.dateForTrueLunarPhase(0.5, withDate: date) // Full
 AstronomicalCalculations.dateForTrueLunarPhase(0.75, withDate: date) // Last quarter
+
+AstronomicalCalculations.lunarPhaseAngleWithDate(date)
+AstronomicalCalculations.lunarPositionAngleWithDate(date)
+AstronomicalCalculations.lunarPhaseWithDate(date)

@@ -142,6 +142,12 @@
     return CAAMoonIlluminatedFraction::PositionAngle(solarCoordinate.X, solarCoordinate.Y, lunarCoordinate.X, lunarCoordinate.Y);
 }
 
++ (double)lunarPhaseWithDate:(nonnull NSDate *)date {
+    double phase = [AstronomicalCalculations lunarPhaseAngleWithDate:date];
+    double position = [AstronomicalCalculations lunarPositionAngleWithDate:date];
+    return (position < 180.0 ? phase + 180.0 : 180.0 - phase) / 360.0;
+}
+
 
 #pragma mark - Solar calculations
 

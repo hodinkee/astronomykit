@@ -40,6 +40,8 @@
 
 + (double)lunarPositionAngleWithDate:(nonnull NSDate *)date;
 
++ (double)lunarPhaseWithDate:(nonnull NSDate *)date;
+
 #pragma mark - Solar calculations
 
 + (nullable NSDate *)solarRiseDateWithDate:(nonnull NSDate *)date location:(CLLocationCoordinate2D)location;
