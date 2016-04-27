@@ -1,2 +1,2 @@
 github "jspahrsummers/xcconfigs"
-github "hodinkee/aaplus"
+github "hodinkee/aaplus" == 1.63
