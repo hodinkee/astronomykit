@@ -16,16 +16,6 @@
 
 @interface AstronomicalCalculations : NSObject
 
-#pragma mark - Time calculations
-
-+ (double)julianDateWithDate:(nonnull NSDate *)date;
-
-+ (double)julianDateTimeWithDate:(nonnull NSDate *)date;
-
-+ (nonnull NSDate *)dateWithJulianDateTime:(double)julianDate;
-
-+ (double)fracionalYearWithDate:(nonnull NSDate *)date;
-
 #pragma mark - Lunar calculations
 
 + (nullable NSDate *)lunarRiseDateWithDate:(nonnull NSDate *)date location:(CLLocationCoordinate2D)location;

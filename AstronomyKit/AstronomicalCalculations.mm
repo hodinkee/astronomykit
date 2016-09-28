@@ -12,56 +12,6 @@
 
 @implementation AstronomicalCalculations
 
-#pragma mark - Time calculations
-
-+ (double)julianDateWithDate:(NSDate *)date {
-    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
-    NSCalendarUnit units = (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay);
-    NSDateComponents *components = [calendar components:units fromDate:date];
-    CAADate otherDate = CAADate(components.year, components.month, components.day, true);
-    return otherDate.Julian();
-}
-
-+ (double)julianDateTimeWithDate:(NSDate *)date {
-    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
-    NSCalendarUnit units = (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond);
-    NSDateComponents *components = [calendar components:units fromDate:date];
-    CAADate otherDate = CAADate(components.year, components.month, components.day, components.hour, components.minute, components.second, true);
-    return otherDate.Julian();
-}
-
-+ (NSDate *)dateWithJulianDateTime:(double)julianDate {
-    CAADate otherDate = CAADate(julianDate, true);
-    long year = 0;
-    long month = 0;
-    long day = 0;
-    long hour = 0;
-    long minute = 0;
-    double second = 0;
-    otherDate.Get(year, month, day, hour, minute, second);
-    
-    NSDateComponents *components = [[NSDateComponents alloc] init];
-    components.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0];
-    components.year = year;
-    components.month = month;
-    components.day = day;
-    components.hour = hour;
-    components.minute = minute;
-    components.second = (NSInteger)second;
-
-    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
-    return [calendar dateFromComponents:components];
-}
-
-+ (double)fracionalYearWithDate:(NSDate *)date {
-    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
-    NSCalendarUnit units = (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond);
-    NSDateComponents *components = [calendar components:units fromDate:date];
-    CAADate otherDate = CAADate(components.year, components.month, components.day, components.hour, components.minute, components.second, true);
-    return otherDate.FractionalYear();
-}
-
-
 #pragma mark - Lunar calculations
 
 + (NSDate *)lunarRiseDateWithDate:(NSDate *)date location:(CLLocationCoordinate2D)location {
@@ -180,6 +130,53 @@
 
 
 #pragma mark - Private
+
++ (double)julianDateWithDate:(NSDate *)date {
+    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
+    NSCalendarUnit units = (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay);
+    NSDateComponents *components = [calendar components:units fromDate:date];
+    CAADate otherDate = CAADate(components.year, components.month, components.day, true);
+    return otherDate.Julian();
+}
+
++ (double)julianDateTimeWithDate:(NSDate *)date {
+    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
+    NSCalendarUnit units = (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond);
+    NSDateComponents *components = [calendar components:units fromDate:date];
+    CAADate otherDate = CAADate(components.year, components.month, components.day, components.hour, components.minute, components.second, true);
+    return otherDate.Julian();
+}
+
++ (NSDate *)dateWithJulianDateTime:(double)julianDate {
+    CAADate otherDate = CAADate(julianDate, true);
+    long year = 0;
+    long month = 0;
+    long day = 0;
+    long hour = 0;
+    long minute = 0;
+    double second = 0;
+    otherDate.Get(year, month, day, hour, minute, second);
+    
+    NSDateComponents *components = [[NSDateComponents alloc] init];
+    components.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0];
+    components.year = year;
+    components.month = month;
+    components.day = day;
+    components.hour = hour;
+    components.minute = minute;
+    components.second = (NSInteger)second;
+    
+    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
+    return [calendar dateFromComponents:components];
+}
+
++ (double)fracionalYearWithDate:(NSDate *)date {
+    NSCalendar *calendar = [NSCalendar AstronomyKitGregorianCalendar];
+    NSCalendarUnit units = (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond);
+    NSDateComponents *components = [calendar components:units fromDate:date];
+    CAADate otherDate = CAADate(components.year, components.month, components.day, components.hour, components.minute, components.second, true);
+    return otherDate.FractionalYear();
+}
 
 + (CAA2DCoordinate)lunarCoordinatesWithJulianDate:(double)julianDate {
     double terestrialTime = CAADynamicalTime::UTC2TT(julianDate);

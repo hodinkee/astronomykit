@@ -6,10 +6,6 @@ let date = NSDate()
 
 let SanFrancisco = CLLocationCoordinate2D(latitude: 37.7833, longitude: -122.4167)
 
-AstronomicalCalculations.julianDateWithDate(date)
-AstronomicalCalculations.julianDateTimeWithDate(date)
-AstronomicalCalculations.fracionalYearWithDate(date)
-
 AstronomicalCalculations.lunarRiseDateWithDate(date, location: SanFrancisco)
 AstronomicalCalculations.lunarTransitDateWithDate(date, location: SanFrancisco)
 AstronomicalCalculations.lunarSetDateWithDate(date, location: SanFrancisco)
