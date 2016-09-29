@@ -6,6 +6,7 @@
 //  Copyright © 2015-2016 HODINKEE. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <AstronomyKit/AstronomicalCalculations.h>
 #import <AstronomyKit/NSCalendar+AstronomyKit.h>
 
