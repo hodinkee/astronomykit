@@ -1,0 +1,17 @@
+# AstronomyKit
+
+AstronomyKit works with [AA+](http://www.naughter.com/aa.html) to provide Objective-C and Swift API for performing complex calculations about the solar system. Functionality is limited to the few use it needed to solve initially. Pull requests are welcome for additional use cases.
+
+## Installation
+
+AstronomyKit works best with [Carthage](https://github.com/carthage/carthage).
+
+```
+github "hodinkee/AstronomyKit"
+```
+
+You may also integrate the framework into your project directly.
+
+## Usage
+
+Examples can be seen in `AstronomyKit.playground`.
