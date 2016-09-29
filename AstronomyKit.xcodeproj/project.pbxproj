@@ -1433,9 +1433,9 @@
 			baseConfigurationReference = 3ADE0BD31C643773003AA2BF /* tvOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 7;
 				INFOPLIST_FILE = AstronomyKit/Configuration/tvOS/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
 			};
@@ -1446,9 +1446,9 @@
 			baseConfigurationReference = 3ADE0BD31C643773003AA2BF /* tvOS-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 7;
 				INFOPLIST_FILE = AstronomyKit/Configuration/tvOS/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
 			};
@@ -1459,9 +1459,9 @@
 			baseConfigurationReference = 3ADE0BCD1C643773003AA2BF /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 7;
 				INFOPLIST_FILE = AstronomyKit/Configuration/macOS/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
 			};
@@ -1472,9 +1472,9 @@
 			baseConfigurationReference = 3ADE0BCD1C643773003AA2BF /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 7;
 				INFOPLIST_FILE = AstronomyKit/Configuration/macOS/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
 			};
@@ -1484,7 +1484,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3ADE0BBA1C643773003AA2BF /* Debug.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				ENABLE_TESTABILITY = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -1498,7 +1498,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3ADE0BBC1C643773003AA2BF /* Release.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -1513,7 +1513,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 6;
+				DYLIB_CURRENT_VERSION = 7;
 				INFOPLIST_FILE = AstronomyKit/Configuration/iOS/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
 			};
@@ -1525,7 +1525,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 6;
+				DYLIB_CURRENT_VERSION = 7;
 				INFOPLIST_FILE = AstronomyKit/Configuration/iOS/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
 			};
