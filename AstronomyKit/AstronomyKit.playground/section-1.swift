@@ -2,23 +2,27 @@ import Foundation
 import CoreLocation
 import AstronomyKit
 
-let date = NSDate()
+let date = Date()
 
-let SanFrancisco = CLLocationCoordinate2D(latitude: 37.7833, longitude: -122.4167)
+extension CLLocationCoordinate2D {
+    static var SanFrancisco: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: 37.7833, longitude: -122.4167)
+    }
+}
 
-AstronomicalCalculations.lunarRiseDateWithDate(date, location: SanFrancisco)
-AstronomicalCalculations.lunarTransitDateWithDate(date, location: SanFrancisco)
-AstronomicalCalculations.lunarSetDateWithDate(date, location: SanFrancisco)
+AstronomicalCalculations.lunarRiseDate(with: date, location: .SanFrancisco)
+AstronomicalCalculations.lunarTransitDate(with: date, location: .SanFrancisco)
+AstronomicalCalculations.lunarSetDate(with: date, location: .SanFrancisco)
 
-AstronomicalCalculations.solarRiseDateWithDate(date, location: SanFrancisco)
-AstronomicalCalculations.solarTransitDateWithDate(date, location: SanFrancisco)
-AstronomicalCalculations.solarSetDateWithDate(date, location: SanFrancisco)
+AstronomicalCalculations.solarRiseDate(with: date, location: .SanFrancisco)
+AstronomicalCalculations.solarTransitDate(with: date, location: .SanFrancisco)
+AstronomicalCalculations.solarSetDate(with: date, location: .SanFrancisco)
 
-AstronomicalCalculations.dateForTrueLunarPhase(0.0, withDate: date) // New
-AstronomicalCalculations.dateForTrueLunarPhase(0.25, withDate: date) // First quarter
-AstronomicalCalculations.dateForTrueLunarPhase(0.5, withDate: date) // Full
-AstronomicalCalculations.dateForTrueLunarPhase(0.75, withDate: date) // Last quarter
+AstronomicalCalculations.date(forTrueLunarPhase: 0.0, with: date) // New
+AstronomicalCalculations.date(forTrueLunarPhase: 0.25, with: date) // First quarter
+AstronomicalCalculations.date(forTrueLunarPhase: 0.5, with: date) // Full
+AstronomicalCalculations.date(forTrueLunarPhase: 0.75, with: date) // Last quarter
 
-AstronomicalCalculations.lunarPhaseAngleWithDate(date)
-AstronomicalCalculations.lunarPositionAngleWithDate(date)
-AstronomicalCalculations.lunarPhaseWithDate(date)
+AstronomicalCalculations.lunarPhaseAngle(with: date)
+AstronomicalCalculations.lunarPositionAngle(with: date)
+AstronomicalCalculations.lunarPhase(with: date)
