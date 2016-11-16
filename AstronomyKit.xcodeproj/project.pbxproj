@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B67E2381DDC07F80025B5E3 /* AstronomicalCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B67E2391DDC07F90025B5E3 /* AstronomicalCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B67E23A1DDC07FF0025B5E3 /* NSCalendar+AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053FB1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B67E23B1DDC07FF0025B5E3 /* NSCalendar+AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053FB1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B67E23C1DDC08050025B5E3 /* NSCalendar+AstronomyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053FC1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.m */; };
+		3B67E23D1DDC08060025B5E3 /* NSCalendar+AstronomyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053FC1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.m */; };
+		3B67E23E1DDC08080025B5E3 /* AstronomicalCalculations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053F91B96434A00CC8DF0 /* AstronomicalCalculations.mm */; };
+		3B67E23F1DDC08080025B5E3 /* AstronomicalCalculations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053F91B96434A00CC8DF0 /* AstronomicalCalculations.mm */; };
 		3B9560E01D9CB6A50037618E /* AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9560DC1D9CB6980037618E /* AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B9560E11D9CB6A70037618E /* AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9560D91D9CB6980037618E /* AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B9560E21D9CB8650037618E /* AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9560D61D9CB6980037618E /* AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -992,7 +1000,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B67E2381DDC07F80025B5E3 /* AstronomicalCalculations.h in Headers */,
 				3B9560E01D9CB6A50037618E /* AstronomyKit.h in Headers */,
+				3B67E23A1DDC07FF0025B5E3 /* NSCalendar+AstronomyKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1000,7 +1010,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B67E2391DDC07F90025B5E3 /* AstronomicalCalculations.h in Headers */,
 				3B9560E11D9CB6A70037618E /* AstronomyKit.h in Headers */,
+				3B67E23B1DDC07FF0025B5E3 /* NSCalendar+AstronomyKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1283,6 +1295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B67E23C1DDC08050025B5E3 /* NSCalendar+AstronomyKit.m in Sources */,
+				3B67E23E1DDC08080025B5E3 /* AstronomicalCalculations.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1290,6 +1304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B67E23D1DDC08060025B5E3 /* NSCalendar+AstronomyKit.m in Sources */,
+				3B67E23F1DDC08080025B5E3 /* AstronomicalCalculations.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1565,6 +1581,7 @@
 				3B9560C41D9CB5CC0037618E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B9560D11D9CB6620037618E /* Build configuration list for PBXNativeTarget "AstronomyKit-macOS" */ = {
 			isa = XCConfigurationList;
@@ -1573,6 +1590,7 @@
 				3B9560D31D9CB6620037618E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BE052DA1B96429800CC8DF0 /* Build configuration list for PBXProject "AstronomyKit" */ = {
 			isa = XCConfigurationList;
