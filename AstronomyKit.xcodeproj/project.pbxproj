@@ -237,23 +237,12 @@
 		3BC040391D9C2BF400DF3419 /* AAVSOP87E_VEN.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC03F561D9C2BF400DF3419 /* AAVSOP87E_VEN.h */; };
 		3BC0403C1D9C2BF400DF3419 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BC03F591D9C2BF400DF3419 /* stdafx.cpp */; };
 		3BC0403D1D9C2BF400DF3419 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC03F5A1D9C2BF400DF3419 /* stdafx.h */; };
-		3BE052EC1B96429800CC8DF0 /* AstronomyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */; };
-		3BE052F31B96429800CC8DF0 /* AstronomyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE052F21B96429800CC8DF0 /* AstronomyKitTests.m */; };
 		3BE053FD1B96434A00CC8DF0 /* AstronomicalCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BE053FE1B96434A00CC8DF0 /* AstronomicalCalculations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053F91B96434A00CC8DF0 /* AstronomicalCalculations.mm */; };
 		3BE053FF1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053FB1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BE054001B96434A00CC8DF0 /* NSCalendar+AstronomyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053FC1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.m */; };
+		E631A3981E2D89A400F479CE /* AstronomyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E631A3971E2D89A400F479CE /* AstronomyKitTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3BE052ED1B96429800CC8DF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3BE052D71B96429800CC8DF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3BE052DF1B96429800CC8DF0;
-			remoteInfo = AstronomyKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3ADE0BB61C643773003AA2BF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -283,8 +272,8 @@
 		3ADE0BD71C643773003AA2BF /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
 		3ADE0BD81C643773003AA2BF /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		3ADE0BD91C643773003AA2BF /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		3B9560BE1D9CB5CC0037618E /* AstronomyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstronomyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B9560CC1D9CB6620037618E /* AstronomyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstronomyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9560BE1D9CB5CC0037618E /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9560CC1D9CB6620037618E /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9560D61D9CB6980037618E /* AstronomyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstronomyKit.h; sourceTree = "<group>"; };
 		3B9560D71D9CB6980037618E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B9560D91D9CB6980037618E /* AstronomyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstronomyKit.h; sourceTree = "<group>"; };
@@ -518,15 +507,15 @@
 		3BC03F581D9C2BF400DF3419 /* naughter.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = naughter.css; sourceTree = "<group>"; };
 		3BC03F591D9C2BF400DF3419 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
 		3BC03F5A1D9C2BF400DF3419 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
-		3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstronomyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BE052EB1B96429800CC8DF0 /* AstronomyKit-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AstronomyKit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BE052F11B96429800CC8DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BE052F21B96429800CC8DF0 /* AstronomyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstronomyKitTests.m; sourceTree = "<group>"; };
+		3BE052E01B96429800CC8DF0 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalCalculations.h; sourceTree = "<group>"; };
 		3BE053F91B96434A00CC8DF0 /* AstronomicalCalculations.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AstronomicalCalculations.mm; sourceTree = "<group>"; };
 		3BE053FA1B96434A00CC8DF0 /* AstronomyKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AstronomyKit.playground; sourceTree = "<group>"; };
 		3BE053FB1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+AstronomyKit.h"; sourceTree = "<group>"; };
 		3BE053FC1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+AstronomyKit.m"; sourceTree = "<group>"; };
+		E631A3951E2D89A400F479CE /* AstronomyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E631A3971E2D89A400F479CE /* AstronomyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstronomyKitTests.m; sourceTree = "<group>"; };
+		E631A3991E2D89A400F479CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -551,11 +540,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BE052E81B96429800CC8DF0 /* Frameworks */ = {
+		E631A3921E2D89A400F479CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE052EC1B96429800CC8DF0 /* AstronomyKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -954,7 +942,7 @@
 			isa = PBXGroup;
 			children = (
 				3BE052E21B96429800CC8DF0 /* AstronomyKit */,
-				3BE052EF1B96429800CC8DF0 /* Tests */,
+				E631A3961E2D89A400F479CE /* AstronomyKitTests */,
 				3BC03E741D9C2BC400DF3419 /* Vendor */,
 				3BE052E11B96429800CC8DF0 /* Products */,
 			);
@@ -963,10 +951,10 @@
 		3BE052E11B96429800CC8DF0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */,
-				3BE052EB1B96429800CC8DF0 /* AstronomyKit-Tests.xctest */,
-				3B9560BE1D9CB5CC0037618E /* AstronomyKit.framework */,
-				3B9560CC1D9CB6620037618E /* AstronomyKit.framework */,
+				3BE052E01B96429800CC8DF0 /* .framework */,
+				3B9560BE1D9CB5CC0037618E /* .framework */,
+				3B9560CC1D9CB6620037618E /* .framework */,
+				E631A3951E2D89A400F479CE /* AstronomyKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -984,14 +972,14 @@
 			path = AstronomyKit;
 			sourceTree = "<group>";
 		};
-		3BE052EF1B96429800CC8DF0 /* Tests */ = {
+		E631A3961E2D89A400F479CE /* AstronomyKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				3BE052F21B96429800CC8DF0 /* AstronomyKitTests.m */,
-				3BE052F11B96429800CC8DF0 /* Info.plist */,
+				E631A3971E2D89A400F479CE /* AstronomyKitTests.m */,
+				E631A3991E2D89A400F479CE /* Info.plist */,
 			);
-			path = Tests;
-			sourceTree = "<group>";
+			path = AstronomyKitTests;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -1156,7 +1144,7 @@
 			);
 			name = "AstronomyKit-tvOS";
 			productName = "AstronomyKit-tvOS";
-			productReference = 3B9560BE1D9CB5CC0037618E /* AstronomyKit.framework */;
+			productReference = 3B9560BE1D9CB5CC0037618E /* .framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3B9560CB1D9CB6620037618E /* AstronomyKit-macOS */ = {
@@ -1174,7 +1162,7 @@
 			);
 			name = "AstronomyKit-macOS";
 			productName = "AstronomyKit-macOS";
-			productReference = 3B9560CC1D9CB6620037618E /* AstronomyKit.framework */;
+			productReference = 3B9560CC1D9CB6620037618E /* .framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3BE052DF1B96429800CC8DF0 /* AstronomyKit-iOS */ = {
@@ -1192,25 +1180,24 @@
 			);
 			name = "AstronomyKit-iOS";
 			productName = AstronomyKit;
-			productReference = 3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */;
+			productReference = 3BE052E01B96429800CC8DF0 /* .framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3BE052EA1B96429800CC8DF0 /* AstronomyKit-iOS-Tests */ = {
+		E631A3941E2D89A400F479CE /* AstronomyKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BE052F91B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit-iOS-Tests" */;
+			buildConfigurationList = E631A39A1E2D89A400F479CE /* Build configuration list for PBXNativeTarget "AstronomyKitTests" */;
 			buildPhases = (
-				3BE052E71B96429800CC8DF0 /* Sources */,
-				3BE052E81B96429800CC8DF0 /* Frameworks */,
-				3BE052E91B96429800CC8DF0 /* Resources */,
+				E631A3911E2D89A400F479CE /* Sources */,
+				E631A3921E2D89A400F479CE /* Frameworks */,
+				E631A3931E2D89A400F479CE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3BE052EE1B96429800CC8DF0 /* PBXTargetDependency */,
 			);
-			name = "AstronomyKit-iOS-Tests";
+			name = AstronomyKitTests;
 			productName = AstronomyKitTests;
-			productReference = 3BE052EB1B96429800CC8DF0 /* AstronomyKit-Tests.xctest */;
+			productReference = E631A3951E2D89A400F479CE /* AstronomyKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1219,7 +1206,7 @@
 		3BE052D71B96429800CC8DF0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = HODINKEE;
 				TargetAttributes = {
 					3B9560BD1D9CB5CC0037618E = {
@@ -1234,8 +1221,10 @@
 						CreatedOnToolsVersion = 6.4;
 						ProvisioningStyle = Manual;
 					};
-					3BE052EA1B96429800CC8DF0 = {
-						CreatedOnToolsVersion = 6.4;
+					E631A3941E2D89A400F479CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K78G42H4U2;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1252,9 +1241,9 @@
 			projectRoot = "";
 			targets = (
 				3BE052DF1B96429800CC8DF0 /* AstronomyKit-iOS */,
-				3BE052EA1B96429800CC8DF0 /* AstronomyKit-iOS-Tests */,
 				3B9560BD1D9CB5CC0037618E /* AstronomyKit-tvOS */,
 				3B9560CB1D9CB6620037618E /* AstronomyKit-macOS */,
+				E631A3941E2D89A400F479CE /* AstronomyKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1281,7 +1270,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BE052E91B96429800CC8DF0 /* Resources */ = {
+		E631A3931E2D89A400F479CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1425,23 +1414,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BE052E71B96429800CC8DF0 /* Sources */ = {
+		E631A3911E2D89A400F479CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE052F31B96429800CC8DF0 /* AstronomyKitTests.m in Sources */,
+				E631A3981E2D89A400F479CE /* AstronomyKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3BE052EE1B96429800CC8DF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3BE052DF1B96429800CC8DF0 /* AstronomyKit-iOS */;
-			targetProxy = 3BE052ED1B96429800CC8DF0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3B9560C31D9CB5CC0037618E /* Debug */ = {
@@ -1500,10 +1481,28 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3ADE0BBA1C643773003AA2BF /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CURRENT_PROJECT_VERSION = 7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1514,7 +1513,24 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3ADE0BBC1C643773003AA2BF /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CURRENT_PROJECT_VERSION = 7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -1547,27 +1563,69 @@
 			};
 			name = Release;
 		};
-		3BE052FA1B96429800CC8DF0 /* Debug */ = {
+		E631A39B1E2D89A400F479CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BC51C643773003AA2BF /* iOS-Application.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
-				INFOPLIST_FILE = Tests/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)-Tests";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K78G42H4U2;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = AstronomyKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hodinkee.AstronomyKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		3BE052FB1B96429800CC8DF0 /* Release */ = {
+		E631A39C1E2D89A400F479CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BC51C643773003AA2BF /* iOS-Application.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
-				INFOPLIST_FILE = Tests/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)-Tests";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K78G42H4U2;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = AstronomyKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hodinkee.AstronomyKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1610,14 +1668,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BE052F91B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit-iOS-Tests" */ = {
+		E631A39A1E2D89A400F479CE /* Build configuration list for PBXNativeTarget "AstronomyKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BE052FA1B96429800CC8DF0 /* Debug */,
-				3BE052FB1B96429800CC8DF0 /* Release */,
+				E631A39B1E2D89A400F479CE /* Debug */,
+				E631A39C1E2D89A400F479CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
