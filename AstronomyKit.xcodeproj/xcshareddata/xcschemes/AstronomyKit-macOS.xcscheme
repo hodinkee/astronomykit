@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B9560CB1D9CB6620037618E"
-               BuildableName = "AstronomyKit.framework"
+               BuildableName = ".framework"
                BlueprintName = "AstronomyKit-macOS"
                ReferencedContainer = "container:AstronomyKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B9560CB1D9CB6620037618E"
-            BuildableName = "AstronomyKit.framework"
+            BuildableName = ".framework"
             BlueprintName = "AstronomyKit-macOS"
             ReferencedContainer = "container:AstronomyKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B9560CB1D9CB6620037618E"
-            BuildableName = "AstronomyKit.framework"
+            BuildableName = ".framework"
             BlueprintName = "AstronomyKit-macOS"
             ReferencedContainer = "container:AstronomyKit.xcodeproj">
          </BuildableReference>

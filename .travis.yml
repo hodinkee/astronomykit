@@ -1,0 +1,20 @@
+language: objective-c
+osx_image: xcode8.2.1
+xcode_project: AstronomyKit.xcodeproj
+xcode_scheme: AstronomyKitTests
+xcode_sdk: iphonesimulator10.2
+env:
+  global:
+    - FRAMEWORK_NAME=AstronomyKit
+before_install:
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+before_script:
+  - carthage bootstrap
+before_deploy:
+  - carthage build --no-skip-current
+  - carthage archive $FRAMEWORK_NAME
+script:
+  - swiftlint
+  - xcodebuild clean build test -project AstronomyKit.xcodeproj -scheme AstronomyKit -destination 'platform=iOS Simulator,name=iPhone SE,OS=10.2'
+after_success:

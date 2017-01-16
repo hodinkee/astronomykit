@@ -2,11 +2,10 @@
 //  AstronomyKitTests.m
 //  AstronomyKitTests
 //
-//  Created by Caleb Davenport on 9/1/15.
-//  Copyright (c) 2015 Hodinkee. All rights reserved.
+//  Created by Joseph Blau on 1/16/17.
+//  Copyright © 2017 HODINKEE. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
 @interface AstronomyKitTests : XCTestCase
@@ -27,7 +26,7 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
 - (void)testPerformanceExample {
