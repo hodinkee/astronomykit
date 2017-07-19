@@ -22,9 +22,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "9.0"
 
-  s.frameworks = "Foundation", "CoreLocation"
+  s.source_files = "Vendor/AA+/1.6.3/*.{h,cpp}", "AstronomyKit/*.{h,mm,m}"
 
   s.exclude_files = "Vendor/AA+/1.6.3/AATest.cpp", "Vendor/AA+/1.6.3/AAEaster.cpp"
   s.public_header_files = "AstronomyKit/AstronomicalCalculations.h", "AstronomyKit/NSCalendar+AstronomyKit.h"
-  s.source_files = "Vendor/AA+/1.6.3/*.{h,cpp}", "AstronomyKit/*.{h,mm,m}"
 end
