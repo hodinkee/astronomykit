@@ -6502,31 +6502,31 @@ const VSOP87Coefficient2 g_VSOP87B_R_SATURN[] =
 
 double CAAVSOP87B_Saturn::L(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87B_L_SATURN, sizeof(g_VSOP87B_L_SATURN)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87B_L_SATURN, sizeof(g_VSOP87B_L_SATURN)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87B_Saturn::L_DASH(double JD)
 {
-  return CVSOP87::Calculate_Dash(JD, g_VSOP87B_L_SATURN, sizeof(g_VSOP87B_L_SATURN)/sizeof(VSOP87Coefficient));
+  return CVSOP87::Calculate_Dash(JD, g_VSOP87B_L_SATURN, sizeof(g_VSOP87B_L_SATURN)/(sizeof(VSOP87Coefficient)));
 }
 
 double CAAVSOP87B_Saturn::B(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87B_B_SATURN, sizeof(g_VSOP87B_B_SATURN)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87B_B_SATURN, sizeof(g_VSOP87B_B_SATURN)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87B_Saturn::B_DASH(double JD)
 {
-  return CVSOP87::Calculate_Dash(JD, g_VSOP87B_B_SATURN, sizeof(g_VSOP87B_B_SATURN)/sizeof(VSOP87Coefficient));
+  return CVSOP87::Calculate_Dash(JD, g_VSOP87B_B_SATURN, sizeof(g_VSOP87B_B_SATURN)/(sizeof(VSOP87Coefficient)));
 }
 
 double CAAVSOP87B_Saturn::R(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87B_R_SATURN, sizeof(g_VSOP87B_R_SATURN)/sizeof(VSOP87Coefficient), false);
+  return CVSOP87::Calculate(JD, g_VSOP87B_R_SATURN, sizeof(g_VSOP87B_R_SATURN)/(sizeof(VSOP87Coefficient)), false);
 }
 
 double CAAVSOP87B_Saturn::R_DASH(double JD)
 {
-  return CVSOP87::Calculate_Dash(JD, g_VSOP87B_R_SATURN, sizeof(g_VSOP87B_R_SATURN)/sizeof(VSOP87Coefficient));
+  return CVSOP87::Calculate_Dash(JD, g_VSOP87B_R_SATURN, sizeof(g_VSOP87B_R_SATURN)/(sizeof(VSOP87Coefficient)));
 }
 

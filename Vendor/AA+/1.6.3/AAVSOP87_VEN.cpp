@@ -3201,31 +3201,31 @@ const VSOP87Coefficient2 g_VSOP87_P_VENUS[] =
 
 double CAAVSOP87_Venus::A(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_A_VENUS, sizeof(g_VSOP87_A_VENUS)/sizeof(VSOP87Coefficient), false);
+  return CVSOP87::Calculate(JD, g_VSOP87_A_VENUS, sizeof(g_VSOP87_A_VENUS)/(sizeof(VSOP87Coefficient)), false);
 }
 
 double CAAVSOP87_Venus::L(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_L_VENUS, sizeof(g_VSOP87_L_VENUS)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_L_VENUS, sizeof(g_VSOP87_L_VENUS)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_Venus::K(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_K_VENUS, sizeof(g_VSOP87_K_VENUS)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_K_VENUS, sizeof(g_VSOP87_K_VENUS)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_Venus::H(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_H_VENUS, sizeof(g_VSOP87_H_VENUS)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_H_VENUS, sizeof(g_VSOP87_H_VENUS)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_Venus::Q(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_Q_VENUS, sizeof(g_VSOP87_Q_VENUS)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_Q_VENUS, sizeof(g_VSOP87_Q_VENUS)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_Venus::P(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_P_VENUS, sizeof(g_VSOP87_P_VENUS)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_P_VENUS, sizeof(g_VSOP87_P_VENUS)/(sizeof(VSOP87Coefficient)), true);
 }
 

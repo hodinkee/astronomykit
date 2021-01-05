@@ -4424,31 +4424,31 @@ const VSOP87Coefficient2 g_VSOP87_P_EMB[] =
 
 double CAAVSOP87_EMB::A(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_A_EMB, sizeof(g_VSOP87_A_EMB)/sizeof(VSOP87Coefficient), false);
+  return CVSOP87::Calculate(JD, g_VSOP87_A_EMB, sizeof(g_VSOP87_A_EMB)/(sizeof(VSOP87Coefficient)), false);
 }
 
 double CAAVSOP87_EMB::L(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_L_EMB, sizeof(g_VSOP87_L_EMB)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_L_EMB, sizeof(g_VSOP87_L_EMB)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_EMB::K(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_K_EMB, sizeof(g_VSOP87_K_EMB)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_K_EMB, sizeof(g_VSOP87_K_EMB)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_EMB::H(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_H_EMB, sizeof(g_VSOP87_H_EMB)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_H_EMB, sizeof(g_VSOP87_H_EMB)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_EMB::Q(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_Q_EMB, sizeof(g_VSOP87_Q_EMB)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_Q_EMB, sizeof(g_VSOP87_Q_EMB)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_EMB::P(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_P_EMB, sizeof(g_VSOP87_P_EMB)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_P_EMB, sizeof(g_VSOP87_P_EMB)/(sizeof(VSOP87Coefficient)), true);
 }
 

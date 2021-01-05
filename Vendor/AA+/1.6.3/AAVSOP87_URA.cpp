@@ -15391,31 +15391,31 @@ const VSOP87Coefficient2 g_VSOP87_P_URANUS[] =
 
 double CAAVSOP87_Uranus::A(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_A_URANUS, sizeof(g_VSOP87_A_URANUS)/sizeof(VSOP87Coefficient), false);
+  return CVSOP87::Calculate(JD, g_VSOP87_A_URANUS, sizeof(g_VSOP87_A_URANUS)/(sizeof(VSOP87Coefficient)), false);
 }
 
 double CAAVSOP87_Uranus::L(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_L_URANUS, sizeof(g_VSOP87_L_URANUS)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_L_URANUS, sizeof(g_VSOP87_L_URANUS)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_Uranus::K(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_K_URANUS, sizeof(g_VSOP87_K_URANUS)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_K_URANUS, sizeof(g_VSOP87_K_URANUS)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_Uranus::H(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_H_URANUS, sizeof(g_VSOP87_H_URANUS)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_H_URANUS, sizeof(g_VSOP87_H_URANUS)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_Uranus::Q(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_Q_URANUS, sizeof(g_VSOP87_Q_URANUS)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_Q_URANUS, sizeof(g_VSOP87_Q_URANUS)/(sizeof(VSOP87Coefficient)), true);
 }
 
 double CAAVSOP87_Uranus::P(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87_P_URANUS, sizeof(g_VSOP87_P_URANUS)/sizeof(VSOP87Coefficient), true);
+  return CVSOP87::Calculate(JD, g_VSOP87_P_URANUS, sizeof(g_VSOP87_P_URANUS)/(sizeof(VSOP87Coefficient)), true);
 }
 

@@ -7210,31 +7210,31 @@ const VSOP87Coefficient2 g_VSOP87A_Z_MARS[] =
 
 double CAAVSOP87A_Mars::X(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87A_X_MARS, sizeof(g_VSOP87A_X_MARS)/sizeof(VSOP87Coefficient), false);
+  return CVSOP87::Calculate(JD, g_VSOP87A_X_MARS, sizeof(g_VSOP87A_X_MARS)/(sizeof(VSOP87Coefficient)), false);
 }
 
 double CAAVSOP87A_Mars::X_DASH(double JD)
 {
-  return CVSOP87::Calculate_Dash(JD, g_VSOP87A_X_MARS, sizeof(g_VSOP87A_X_MARS)/sizeof(VSOP87Coefficient));
+  return CVSOP87::Calculate_Dash(JD, g_VSOP87A_X_MARS, sizeof(g_VSOP87A_X_MARS)/(sizeof(VSOP87Coefficient)));
 }
 
 double CAAVSOP87A_Mars::Y(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87A_Y_MARS, sizeof(g_VSOP87A_Y_MARS)/sizeof(VSOP87Coefficient), false);
+  return CVSOP87::Calculate(JD, g_VSOP87A_Y_MARS, sizeof(g_VSOP87A_Y_MARS)/(sizeof(VSOP87Coefficient)), false);
 }
 
 double CAAVSOP87A_Mars::Y_DASH(double JD)
 {
-  return CVSOP87::Calculate_Dash(JD, g_VSOP87A_Y_MARS, sizeof(g_VSOP87A_Y_MARS)/sizeof(VSOP87Coefficient));
+  return CVSOP87::Calculate_Dash(JD, g_VSOP87A_Y_MARS, sizeof(g_VSOP87A_Y_MARS)/(sizeof(VSOP87Coefficient)));
 }
 
 double CAAVSOP87A_Mars::Z(double JD)
 {
-  return CVSOP87::Calculate(JD, g_VSOP87A_Z_MARS, sizeof(g_VSOP87A_Z_MARS)/sizeof(VSOP87Coefficient), false);
+  return CVSOP87::Calculate(JD, g_VSOP87A_Z_MARS, sizeof(g_VSOP87A_Z_MARS)/(sizeof(VSOP87Coefficient)), false);
 }
 
 double CAAVSOP87A_Mars::Z_DASH(double JD)
 {
-  return CVSOP87::Calculate_Dash(JD, g_VSOP87A_Z_MARS, sizeof(g_VSOP87A_Z_MARS)/sizeof(VSOP87Coefficient));
+  return CVSOP87::Calculate_Dash(JD, g_VSOP87A_Z_MARS, sizeof(g_VSOP87A_Z_MARS)/(sizeof(VSOP87Coefficient)));
 }
 
