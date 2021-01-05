@@ -1236,6 +1236,7 @@
 					};
 					3BE052EA1B96429800CC8DF0 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = CB38VXKT93;
 					};
 				};
 			};
@@ -1562,6 +1563,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				DEVELOPMENT_TEAM = CB38VXKT93;
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)-Tests";
@@ -1574,6 +1576,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				DEVELOPMENT_TEAM = CB38VXKT93;
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)-Tests";
