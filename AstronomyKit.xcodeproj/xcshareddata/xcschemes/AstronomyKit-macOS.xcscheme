@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B9560CB1D9CB6620037618E"
-               BuildableName = ".framework"
+               BuildableName = "AstronomyKit.framework"
                BlueprintName = "AstronomyKit-macOS"
                ReferencedContainer = "container:AstronomyKit.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B9560CB1D9CB6620037618E"
-            BuildableName = ".framework"
+            BuildableName = "AstronomyKit.framework"
             BlueprintName = "AstronomyKit-macOS"
             ReferencedContainer = "container:AstronomyKit.xcodeproj">
          </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B9560CB1D9CB6620037618E"
-            BuildableName = ".framework"
+            BuildableName = "AstronomyKit.framework"
             BlueprintName = "AstronomyKit-macOS"
             ReferencedContainer = "container:AstronomyKit.xcodeproj">
          </BuildableReference>

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BE052DF1B96429800CC8DF0"
-               BuildableName = ".framework"
+               BuildableName = "AstronomyKit.framework"
                BlueprintName = "AstronomyKit-iOS"
                ReferencedContainer = "container:AstronomyKit.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BE052DF1B96429800CC8DF0"
-            BuildableName = ".framework"
+            BuildableName = "AstronomyKit.framework"
             BlueprintName = "AstronomyKit-iOS"
             ReferencedContainer = "container:AstronomyKit.xcodeproj">
          </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BE052DF1B96429800CC8DF0"
-            BuildableName = ".framework"
+            BuildableName = "AstronomyKit.framework"
             BlueprintName = "AstronomyKit-iOS"
             ReferencedContainer = "container:AstronomyKit.xcodeproj">
          </BuildableReference>
@@ -79,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BE052DF1B96429800CC8DF0"
-            BuildableName = ".framework"
+            BuildableName = "AstronomyKit.framework"
             BlueprintName = "AstronomyKit-iOS"
             ReferencedContainer = "container:AstronomyKit.xcodeproj">
          </BuildableReference>
