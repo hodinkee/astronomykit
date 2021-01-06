@@ -7,16 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B67E2381DDC07F80025B5E3 /* AstronomicalCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B67E2391DDC07F90025B5E3 /* AstronomicalCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B67E23A1DDC07FF0025B5E3 /* NSCalendar+AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053FB1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B67E23B1DDC07FF0025B5E3 /* NSCalendar+AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053FB1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B67E23C1DDC08050025B5E3 /* NSCalendar+AstronomyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053FC1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.m */; };
-		3B67E23D1DDC08060025B5E3 /* NSCalendar+AstronomyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053FC1B96434A00CC8DF0 /* NSCalendar+AstronomyKit.m */; };
-		3B67E23E1DDC08080025B5E3 /* AstronomicalCalculations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053F91B96434A00CC8DF0 /* AstronomicalCalculations.mm */; };
-		3B67E23F1DDC08080025B5E3 /* AstronomicalCalculations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053F91B96434A00CC8DF0 /* AstronomicalCalculations.mm */; };
-		3B9560E01D9CB6A50037618E /* AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9560DC1D9CB6980037618E /* AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B9560E11D9CB6A70037618E /* AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9560D91D9CB6980037618E /* AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B9560E21D9CB8650037618E /* AstronomyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9560D61D9CB6980037618E /* AstronomyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BC03F5B1D9C2BF400DF3419 /* AA+.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC03E781D9C2BF400DF3419 /* AA+.h */; };
 		3BC03F5D1D9C2BF400DF3419 /* AA2DCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC03E7A1D9C2BF400DF3419 /* AA2DCoordinate.h */; };
@@ -237,7 +227,7 @@
 		3BC040391D9C2BF400DF3419 /* AAVSOP87E_VEN.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC03F561D9C2BF400DF3419 /* AAVSOP87E_VEN.h */; };
 		3BC0403C1D9C2BF400DF3419 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BC03F591D9C2BF400DF3419 /* stdafx.cpp */; };
 		3BC0403D1D9C2BF400DF3419 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC03F5A1D9C2BF400DF3419 /* stdafx.h */; };
-		3BE052EC1B96429800CC8DF0 /* AstronomyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */; };
+		3BE052EC1B96429800CC8DF0 /* AstronomyKit-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE052E01B96429800CC8DF0 /* AstronomyKit-iOS.framework */; };
 		3BE052F31B96429800CC8DF0 /* AstronomyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE052F21B96429800CC8DF0 /* AstronomyKitTests.m */; };
 		3BE053FD1B96434A00CC8DF0 /* AstronomicalCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE053F81B96434A00CC8DF0 /* AstronomicalCalculations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BE053FE1B96434A00CC8DF0 /* AstronomicalCalculations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BE053F91B96434A00CC8DF0 /* AstronomicalCalculations.mm */; };
@@ -256,41 +246,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3ADE0BB61C643773003AA2BF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		3ADE0BB81C643773003AA2BF /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		3ADE0BBA1C643773003AA2BF /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		3ADE0BBB1C643773003AA2BF /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
-		3ADE0BBC1C643773003AA2BF /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		3ADE0BBD1C643773003AA2BF /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
-		3ADE0BBF1C643773003AA2BF /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		3ADE0BC01C643773003AA2BF /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
-		3ADE0BC11C643773003AA2BF /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
-		3ADE0BC51C643773003AA2BF /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BC61C643773003AA2BF /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BC71C643773003AA2BF /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BC81C643773003AA2BF /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BCA1C643773003AA2BF /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BCB1C643773003AA2BF /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BCC1C643773003AA2BF /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BCD1C643773003AA2BF /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BCE1C643773003AA2BF /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BCF1C643773003AA2BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3ADE0BD11C643773003AA2BF /* tvOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Application.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BD21C643773003AA2BF /* tvOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Base.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BD31C643773003AA2BF /* tvOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BD41C643773003AA2BF /* tvOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BD61C643773003AA2BF /* watchOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Application.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BD71C643773003AA2BF /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BD81C643773003AA2BF /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		3ADE0BD91C643773003AA2BF /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		3B9560BE1D9CB5CC0037618E /* AstronomyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstronomyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B9560CC1D9CB6620037618E /* AstronomyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstronomyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9560D61D9CB6980037618E /* AstronomyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstronomyKit.h; sourceTree = "<group>"; };
 		3B9560D71D9CB6980037618E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B9560D91D9CB6980037618E /* AstronomyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstronomyKit.h; sourceTree = "<group>"; };
-		3B9560DA1D9CB6980037618E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B9560DC1D9CB6980037618E /* AstronomyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstronomyKit.h; sourceTree = "<group>"; };
-		3B9560DD1D9CB6980037618E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC03E781D9C2BF400DF3419 /* AA+.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AA+.h"; sourceTree = "<group>"; };
 		3BC03E791D9C2BF400DF3419 /* AA+.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "AA+.htm"; sourceTree = "<group>"; };
 		3BC03E7A1D9C2BF400DF3419 /* AA2DCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AA2DCoordinate.h; sourceTree = "<group>"; };
@@ -518,7 +475,7 @@
 		3BC03F581D9C2BF400DF3419 /* naughter.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = naughter.css; sourceTree = "<group>"; };
 		3BC03F591D9C2BF400DF3419 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
 		3BC03F5A1D9C2BF400DF3419 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
-		3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstronomyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE052E01B96429800CC8DF0 /* AstronomyKit-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "AstronomyKit-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE052EB1B96429800CC8DF0 /* AstronomyKit-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AstronomyKit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE052F11B96429800CC8DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE052F21B96429800CC8DF0 /* AstronomyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstronomyKitTests.m; sourceTree = "<group>"; };
@@ -530,20 +487,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B9560BA1D9CB5CC0037618E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B9560C81D9CB6620037618E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3BE052DC1B96429800CC8DF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -555,126 +498,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE052EC1B96429800CC8DF0 /* AstronomyKit.framework in Frameworks */,
+				3BE052EC1B96429800CC8DF0 /* AstronomyKit-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3ADE0BB51C643773003AA2BF /* xcconfigs */ = {
-			isa = PBXGroup;
-			children = (
-				3ADE0BB61C643773003AA2BF /* .gitignore */,
-				3ADE0BB71C643773003AA2BF /* Base */,
-				3ADE0BC21C643773003AA2BF /* Carthage */,
-				3ADE0BC41C643773003AA2BF /* iOS */,
-				3ADE0BC91C643773003AA2BF /* Mac OS X */,
-				3ADE0BCF1C643773003AA2BF /* README.md */,
-				3ADE0BD01C643773003AA2BF /* tvOS */,
-				3ADE0BD51C643773003AA2BF /* watchOS */,
-			);
-			name = xcconfigs;
-			path = Carthage/Checkouts/xcconfigs;
-			sourceTree = "<group>";
-		};
-		3ADE0BB71C643773003AA2BF /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				3ADE0BB81C643773003AA2BF /* Common.xcconfig */,
-				3ADE0BB91C643773003AA2BF /* Configurations */,
-				3ADE0BBE1C643773003AA2BF /* Targets */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		3ADE0BB91C643773003AA2BF /* Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				3ADE0BBA1C643773003AA2BF /* Debug.xcconfig */,
-				3ADE0BBB1C643773003AA2BF /* Profile.xcconfig */,
-				3ADE0BBC1C643773003AA2BF /* Release.xcconfig */,
-				3ADE0BBD1C643773003AA2BF /* Test.xcconfig */,
-			);
-			path = Configurations;
-			sourceTree = "<group>";
-		};
-		3ADE0BBE1C643773003AA2BF /* Targets */ = {
-			isa = PBXGroup;
-			children = (
-				3ADE0BBF1C643773003AA2BF /* Application.xcconfig */,
-				3ADE0BC01C643773003AA2BF /* Framework.xcconfig */,
-				3ADE0BC11C643773003AA2BF /* StaticLibrary.xcconfig */,
-			);
-			path = Targets;
-			sourceTree = "<group>";
-		};
-		3ADE0BC21C643773003AA2BF /* Carthage */ = {
-			isa = PBXGroup;
-			children = (
-				3ADE0BC31C643773003AA2BF /* Build */,
-			);
-			path = Carthage;
-			sourceTree = "<group>";
-		};
-		3ADE0BC31C643773003AA2BF /* Build */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Build;
-			sourceTree = "<group>";
-		};
-		3ADE0BC41C643773003AA2BF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3ADE0BC51C643773003AA2BF /* iOS-Application.xcconfig */,
-				3ADE0BC61C643773003AA2BF /* iOS-Base.xcconfig */,
-				3ADE0BC71C643773003AA2BF /* iOS-Framework.xcconfig */,
-				3ADE0BC81C643773003AA2BF /* iOS-StaticLibrary.xcconfig */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		3ADE0BC91C643773003AA2BF /* Mac OS X */ = {
-			isa = PBXGroup;
-			children = (
-				3ADE0BCA1C643773003AA2BF /* Mac-Application.xcconfig */,
-				3ADE0BCB1C643773003AA2BF /* Mac-Base.xcconfig */,
-				3ADE0BCC1C643773003AA2BF /* Mac-DynamicLibrary.xcconfig */,
-				3ADE0BCD1C643773003AA2BF /* Mac-Framework.xcconfig */,
-				3ADE0BCE1C643773003AA2BF /* Mac-StaticLibrary.xcconfig */,
-			);
-			path = "Mac OS X";
-			sourceTree = "<group>";
-		};
-		3ADE0BD01C643773003AA2BF /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				3ADE0BD11C643773003AA2BF /* tvOS-Application.xcconfig */,
-				3ADE0BD21C643773003AA2BF /* tvOS-Base.xcconfig */,
-				3ADE0BD31C643773003AA2BF /* tvOS-Framework.xcconfig */,
-				3ADE0BD41C643773003AA2BF /* tvOS-StaticLibrary.xcconfig */,
-			);
-			path = tvOS;
-			sourceTree = "<group>";
-		};
-		3ADE0BD51C643773003AA2BF /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				3ADE0BD61C643773003AA2BF /* watchOS-Application.xcconfig */,
-				3ADE0BD71C643773003AA2BF /* watchOS-Base.xcconfig */,
-				3ADE0BD81C643773003AA2BF /* watchOS-Framework.xcconfig */,
-				3ADE0BD91C643773003AA2BF /* watchOS-StaticLibrary.xcconfig */,
-			);
-			path = watchOS;
-			sourceTree = "<group>";
-		};
 		3B9560D41D9CB6980037618E /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
 				3B9560D51D9CB6980037618E /* iOS */,
-				3B9560D81D9CB6980037618E /* macOS */,
-				3B9560DB1D9CB6980037618E /* tvOS */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -688,29 +522,10 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		3B9560D81D9CB6980037618E /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				3B9560D91D9CB6980037618E /* AstronomyKit.h */,
-				3B9560DA1D9CB6980037618E /* Info.plist */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		3B9560DB1D9CB6980037618E /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				3B9560DC1D9CB6980037618E /* AstronomyKit.h */,
-				3B9560DD1D9CB6980037618E /* Info.plist */,
-			);
-			path = tvOS;
-			sourceTree = "<group>";
-		};
 		3BC03E741D9C2BC400DF3419 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
 				3BC03E771D9C2BF400DF3419 /* AA+ */,
-				3ADE0BB51C643773003AA2BF /* xcconfigs */,
 			);
 			name = Vendor;
 			sourceTree = "<group>";
@@ -963,10 +778,8 @@
 		3BE052E11B96429800CC8DF0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */,
+				3BE052E01B96429800CC8DF0 /* AstronomyKit-iOS.framework */,
 				3BE052EB1B96429800CC8DF0 /* AstronomyKit-Tests.xctest */,
-				3B9560BE1D9CB5CC0037618E /* AstronomyKit.framework */,
-				3B9560CC1D9CB6620037618E /* AstronomyKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -996,26 +809,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B9560BB1D9CB5CC0037618E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B67E2381DDC07F80025B5E3 /* AstronomicalCalculations.h in Headers */,
-				3B9560E01D9CB6A50037618E /* AstronomyKit.h in Headers */,
-				3B67E23A1DDC07FF0025B5E3 /* NSCalendar+AstronomyKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B9560C91D9CB6620037618E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B67E2391DDC07F90025B5E3 /* AstronomicalCalculations.h in Headers */,
-				3B9560E11D9CB6A70037618E /* AstronomyKit.h in Headers */,
-				3B67E23B1DDC07FF0025B5E3 /* NSCalendar+AstronomyKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3BE052DD1B96429800CC8DF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1141,42 +934,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B9560BD1D9CB5CC0037618E /* AstronomyKit-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B9560C51D9CB5CC0037618E /* Build configuration list for PBXNativeTarget "AstronomyKit-tvOS" */;
-			buildPhases = (
-				3B9560B91D9CB5CC0037618E /* Sources */,
-				3B9560BA1D9CB5CC0037618E /* Frameworks */,
-				3B9560BB1D9CB5CC0037618E /* Headers */,
-				3B9560BC1D9CB5CC0037618E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AstronomyKit-tvOS";
-			productName = "AstronomyKit-tvOS";
-			productReference = 3B9560BE1D9CB5CC0037618E /* AstronomyKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3B9560CB1D9CB6620037618E /* AstronomyKit-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B9560D11D9CB6620037618E /* Build configuration list for PBXNativeTarget "AstronomyKit-macOS" */;
-			buildPhases = (
-				3B9560C71D9CB6620037618E /* Sources */,
-				3B9560C81D9CB6620037618E /* Frameworks */,
-				3B9560C91D9CB6620037618E /* Headers */,
-				3B9560CA1D9CB6620037618E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AstronomyKit-macOS";
-			productName = "AstronomyKit-macOS";
-			productReference = 3B9560CC1D9CB6620037618E /* AstronomyKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		3BE052DF1B96429800CC8DF0 /* AstronomyKit-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BE052F61B96429800CC8DF0 /* Build configuration list for PBXNativeTarget "AstronomyKit-iOS" */;
@@ -1192,7 +949,7 @@
 			);
 			name = "AstronomyKit-iOS";
 			productName = AstronomyKit;
-			productReference = 3BE052E01B96429800CC8DF0 /* AstronomyKit.framework */;
+			productReference = 3BE052E01B96429800CC8DF0 /* AstronomyKit-iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3BE052EA1B96429800CC8DF0 /* AstronomyKit-iOS-Tests */ = {
@@ -1222,14 +979,6 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = HODINKEE;
 				TargetAttributes = {
-					3B9560BD1D9CB5CC0037618E = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Manual;
-					};
-					3B9560CB1D9CB6620037618E = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Manual;
-					};
 					3BE052DF1B96429800CC8DF0 = {
 						CreatedOnToolsVersion = 6.4;
 						ProvisioningStyle = Manual;
@@ -1255,27 +1004,11 @@
 			targets = (
 				3BE052DF1B96429800CC8DF0 /* AstronomyKit-iOS */,
 				3BE052EA1B96429800CC8DF0 /* AstronomyKit-iOS-Tests */,
-				3B9560BD1D9CB5CC0037618E /* AstronomyKit-tvOS */,
-				3B9560CB1D9CB6620037618E /* AstronomyKit-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B9560BC1D9CB5CC0037618E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B9560CA1D9CB6620037618E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3BE052DE1B96429800CC8DF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1293,24 +1026,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B9560B91D9CB5CC0037618E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B67E23C1DDC08050025B5E3 /* NSCalendar+AstronomyKit.m in Sources */,
-				3B67E23E1DDC08080025B5E3 /* AstronomicalCalculations.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B9560C71D9CB6620037618E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B67E23D1DDC08060025B5E3 /* NSCalendar+AstronomyKit.m in Sources */,
-				3B67E23F1DDC08080025B5E3 /* AstronomicalCalculations.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3BE052DB1B96429800CC8DF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1446,70 +1161,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B9560C31D9CB5CC0037618E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BD31C643773003AA2BF /* tvOS-Framework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 9;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 7;
-				INFOPLIST_FILE = AstronomyKit/Configuration/tvOS/Info.plist;
-				MARKETING_VERSION = 1.7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
-			};
-			name = Debug;
-		};
-		3B9560C41D9CB5CC0037618E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BD31C643773003AA2BF /* tvOS-Framework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 9;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 7;
-				INFOPLIST_FILE = AstronomyKit/Configuration/tvOS/Info.plist;
-				MARKETING_VERSION = 1.7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
-			};
-			name = Release;
-		};
-		3B9560D21D9CB6620037618E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BCD1C643773003AA2BF /* Mac-Framework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 9;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 7;
-				INFOPLIST_FILE = AstronomyKit/Configuration/macOS/Info.plist;
-				MARKETING_VERSION = 1.7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
-			};
-			name = Debug;
-		};
-		3B9560D31D9CB6620037618E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BCD1C643773003AA2BF /* Mac-Framework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 9;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 7;
-				INFOPLIST_FILE = AstronomyKit/Configuration/macOS/Info.plist;
-				MARKETING_VERSION = 1.7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
-			};
-			name = Release;
-		};
 		3BE052F41B96429800CC8DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BBA1C643773003AA2BF /* Debug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 7;
 				ENABLE_TESTABILITY = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1518,11 +1178,11 @@
 		};
 		3BE052F51B96429800CC8DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BBC1C643773003AA2BF /* Release.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 7;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = iphoneos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1531,8 +1191,8 @@
 		};
 		3BE052F71B96429800CC8DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BC71C643773003AA2BF /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 9;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1540,13 +1200,14 @@
 				INFOPLIST_FILE = AstronomyKit/Configuration/iOS/Info.plist;
 				MARKETING_VERSION = 1.7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "AstronomyKit-iOS";
 			};
 			name = Debug;
 		};
 		3BE052F81B96429800CC8DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BC71C643773003AA2BF /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 9;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1554,12 +1215,12 @@
 				INFOPLIST_FILE = AstronomyKit/Configuration/iOS/Info.plist;
 				MARKETING_VERSION = 1.7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hodinkee.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "AstronomyKit-iOS";
 			};
 			name = Release;
 		};
 		3BE052FA1B96429800CC8DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BC51C643773003AA2BF /* iOS-Application.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
@@ -1572,7 +1233,6 @@
 		};
 		3BE052FB1B96429800CC8DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADE0BC51C643773003AA2BF /* iOS-Application.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
@@ -1586,24 +1246,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B9560C51D9CB5CC0037618E /* Build configuration list for PBXNativeTarget "AstronomyKit-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B9560C31D9CB5CC0037618E /* Debug */,
-				3B9560C41D9CB5CC0037618E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B9560D11D9CB6620037618E /* Build configuration list for PBXNativeTarget "AstronomyKit-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B9560D21D9CB6620037618E /* Debug */,
-				3B9560D31D9CB6620037618E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3BE052DA1B96429800CC8DF0 /* Build configuration list for PBXProject "AstronomyKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
