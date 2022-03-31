@@ -4,7 +4,7 @@
 
 ## Usage
 
-Add `AstronomyKit` to any Xcode project via the [package dependencies tab.](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app) Alternately, add `AstronomyKit` to the `dependencies` of another Swift package:
+Add `AstronomyKit` to any Xcode project via the [package dependencies](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app) tab. Alternately, add `AstronomyKit` to the dependencies of another Swift package:
 
 ```
 .package(url: "https://github.com/hodinkee/AstronomyKit", .branch("spm"))
@@ -47,6 +47,6 @@ Requires [Xcode](https://developer.apple.com/xcode) 13.3 or newer to build.
 
 ### Platform Targets
 
-* [macOS](https://developer.apple.com/macos) 11 Monterey
+* [macOS](https://developer.apple.com/macos) 11 Big Sur
 * [iOS](https://developer.apple.com/ios)/[iPadOS](https://developer.apple.com/ipados)/[tvOS](https://developer.apple.com/tvos) 14
 * [watchOS](https://developer.apple.com/watchos) 7
