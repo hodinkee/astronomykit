@@ -4,10 +4,22 @@
 
 ## Usage
 
-Add `AstronomyKit` to any Xcode project via the [package dependencies](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app) tab. Alternately, add `AstronomyKit` to the dependencies of another Swift package:
+Use `AstronomyKit` directly in any Xcode project by adding it to the project's [package dependencies.](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app) `AstronomyKit` can also be added to the dependencies of another Swift package:
 
 ```
-.package(url: "https://github.com/hodinkee/AstronomyKit", .branch("spm"))
+import PackageDescription
+
+let package = Package(name: "example", products: [
+        .library(name: "Example", targets: [
+            "Example"
+        ])
+    ], dependencies: [
+        .package(url: "https://github.com/hodinkee/AstronomyKit", branch: "spm")
+    ], targets: [
+        .target(name: "Example", dependencies: [
+            "AstronomyKit"
+        ])
+    ], cxxLanguageStandard: .cxx20)
 ```
 
 Functionality includes the following calculations:
