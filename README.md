@@ -6,7 +6,7 @@
 
 Use `AstronomyKit` directly in any Xcode project by adding it to the project's [package dependencies.](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app) `AstronomyKit` can also be added to the dependencies of another Swift package:
 
-```
+```swift
 import PackageDescription
 
 let package = Package(name: "example", products: [
@@ -24,7 +24,7 @@ let package = Package(name: "example", products: [
 
 Functionality includes the following calculations:
 
-```
+```swift
 import CoreLocation
 import AstronomyKit
 
