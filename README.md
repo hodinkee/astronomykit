@@ -14,10 +14,10 @@ let package = Package(name: "example", products: [
             "Example"
         ])
     ], dependencies: [
-        .package(url: "https://github.com/hodinkee/AstronomyKit", branch: "spm")
+        .package(url: "https://github.com/hodinkee/astronomykit", branch: "spm")
     ], targets: [
         .target(name: "Example", dependencies: [
-            "AstronomyKit"
+            .product(name: "AstronomyKit", package: "astronomykit")
         ])
     ], cxxLanguageStandard: .cxx20)
 ```
